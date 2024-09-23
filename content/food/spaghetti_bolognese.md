@@ -88,3 +88,5 @@ The process is pretty much hands-free. You can let the cooker reduce the sauce a
 - Second iteration w/ 150g mince + 140g pasta (taken out of water when it is almost cooked) with a greater proportion of tomato puree + most of the stock + additional pasta water - sauce clumps together and taste seems good.
 - Rice cooker iteration w/ 100g mince + 120g pasta + mirin in the sauce before serving - ver gooch
 - Rice cooker iteration w/ 200g mince + 300g pasta + mirin in the sauce + slow cooking of veggies and mince - also ver gooch
+
+[back](../)
