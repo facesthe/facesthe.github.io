@@ -1,4 +1,4 @@
-name: Zola on GitHub Pages
+name: publish
 
 on:
  push:
@@ -7,14 +7,12 @@ on:
 
 jobs:
   build:
-    name: Publish site
+    name: Publish to gh-pages
     runs-on: ubuntu-latest
     steps:
     - name: Checkout main
       uses: actions/checkout@v4
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Build and deploy
+    - name: Publish
       uses: shalzz/zola-deploy-action@v0.19.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
