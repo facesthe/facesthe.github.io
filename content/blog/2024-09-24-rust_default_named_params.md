@@ -10,8 +10,6 @@ toc = true
 # description = "My journey in creating a macro library"
 +++
 
-# Header
-
 Hello world bismillah
 
 ## Some subheading
