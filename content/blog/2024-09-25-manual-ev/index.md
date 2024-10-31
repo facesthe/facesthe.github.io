@@ -1,5 +1,6 @@
 +++
 title = "EV, aperture and shutter speed"
+draft = true
 
 [taxonomies]
 tags = ["photography"]
@@ -23,7 +24,7 @@ tags = ["photography"]
 </div>
 
 <div class="slider">
-  <input type="range" min="0" max="17" value="10" class="slider" id="evSlider">
+  <input type="range" min="0" max="20" value="10" class="slider" id="evSlider">
   EV:
   <span id="evValueOutput" class="slider_output">
   <!-- <span id="evValueOutput" class="slider_output"> -->
@@ -36,7 +37,12 @@ tags = ["photography"]
 </div>
 
 <div class="formula">
-formula space
+  EV<sub id="isoValue"></sub>
+  <span id="exposureValue"></span>
+  (LV <span id="lightValue"></span>) :
+  1&frasl;<span id="shutterValue"></span>s
+  @
+  f<span id="apertureValue"></span>
 </div>
 
 <script src="./script.js"></script>
@@ -49,11 +55,19 @@ formula space
   }
 
   div.formula {
-    /* align: center; */
-    font-size: 1.5em;
+    font-size: 2.25em;
+    font-style: italic;
+    font-family: georgia;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1em;
+    /* margin: 1em; */
+    padding: 0.5em;
+
+    border-style: dotted hidden dotted hidden;
+    border-width: 2px;
+    /* border-radius: 8px; */
   }
 
   input.slider {
