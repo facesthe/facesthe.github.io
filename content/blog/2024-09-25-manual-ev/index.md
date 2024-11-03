@@ -49,36 +49,40 @@ tags = ["photography"]
 
 <style type="text/css" rel="stylesheet">
   div.slider {
-    align: center;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    text-align: center;
+    margin-inline: auto;
   }
 
   div.formula {
-    font-size: 2.25em;
-    font-style: italic;
-    font-family: georgia;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    /* margin: 1em; */
-    padding: 0.5em;
+      font-size: 2em;
+      font-style: italic;
+      font-family: georgia, serif;
+      text-align: center;
+      max-width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1em;
+      /* margin: 1em; */
+      padding: 0.5em;
 
-    border-style: dotted hidden dotted hidden;
-    border-width: 2px;
-    /* border-radius: 8px; */
+      border-style: dotted hidden dotted hidden;
+      border-width: 2px;
+      /* border-radius: 8px; */
+  }
+
+  sub {
+    font-size: 0.4em;
   }
 
   input.slider {
     width: 50%;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
     float: left;
-
-    /* justify-content: space-around; */
   }
 
   span.slider_output {
     font-size: 1.1em;
   }
+
 </style>
